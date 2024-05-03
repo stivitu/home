@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--google inter font embed-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+<!-- import icons -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<header>
+<!--<a href="#" class="logo"><img src="images/logo.png" alt="MyLogo" style="width: 55px; height: 45px;"> .com</a>-->
+<a href="#" class="logo">  Portfolio.</a>
+<ul class="navlist">
+<li><a href="#section1">Home</a></li>
+<li><a href="#About">About</a></li>
+<li><a href="#Vision">Vision</a></li>
+<li><a href="#Services">Services</a></li>
+<li><a href="#section5">Contact</a></li>
+
+</ul>
+
+<div class="nav-right">
+<!--    <a href="#" class="btn">Book now</a> -->
+    <div class="bx bx-menu" id="menu-icon"></div>
+
+</div>
+</header>
+
+<main>
+  <section class="container" id="section1">
+  
+  <h1>Development & Consulting</h1>  
+    
+  </section>
+
+  <div id="About" class="subtitle"><h2><i>About</i></h2></div>
+
+  <section id="section2">
+    <!-- Content for section 2 -->
+    <div class="box box2 a">
+    <img src="images/dev.jpg" alt="Picture." width=100% height=100% >
+    </div>
+    <div  class="box box3 a">
+    <p>
+      We create dynamic websites, mobile software and simple applications for various purposes. 
+     Our business is web development. We welcome the development of new, open-source 
+     technologies and see our future in their application. One famous actor said: 
+     'People value you for how much money you take from them!' That is not our position. 
+     The Internet is changing - every day. User habits are changing.
+     Available tools, work methods and service prices are changing to.
+     Despite all the changes and the dynamic environment, the user experience
+     is in the forefront of our minds.
+     Our goal is also to stay on the path that offers the maximum. How for us,
+     as well as for clients.
+       
+
+    </p>
+
+    </div>
+  </section>
+
+  <div id="Vision" class="subtitle"><h2><i>Vision</i></h2></div>
+
+  <section id="section3">
+    <!-- Content for section 2 -->
+
+    <div class="box box2 b">
+    <img src="images/tim.jpg" alt="Picture." width=100% height=100% >
+    </div>
+
+    <div class="box box3 b">
+    <p>
+  
+     We believe in the strength and power of individual work and the diligence and 
+    dedication of individuals. But we also believe in pooling that same potential, 
+	  in order to better understand ongoing projects, and to share ideas and ways to 
+	  approach the challenges ahead. There are talented individuals who make a huge 
+	  contribution to development in all fields of human activity. But we also know 
+    that the greatest achievements are achieved by teams! 
+	  Idea solutions and answers to questions can sometimes be found in the most 
+    unexpected places. Therefore, we support diversity.
+    If you have quality ideas, and if you are good in any segment of web development,
+    join us. Together we can achieve more!     
+	
+
+    </p>
+
+    </div>
+    
+  </section>
+
+  <div id="Services" class="subtitle"><h2><i>Services</i></h2></div>
+
+  <section id="section4">
+    <!-- Content for section 3 -->
+    <div class="box box4">
+      <div class="icon1"><i class='bx bx-desktop bx-sm' ></i></div> 
+      <div class="topic">Web Development</div>
+      <p class="par-4">Front-end, back-end web development, web design</p>
+  
+  <a href="https://7innovation.net">few new ideas...</a><br>
+  <a href="https://codingandee.blogspot.com">blog</a>
+    </div>
+    <div class="box box4">
+      <div class="icon1"><i class='bx bx-mobile bx-sm' ></i></div>
+      <div class="topic">Mobile App Development</div>
+      <p class="par-4">Development of mobile applications in Flutter technology</p>
+  
+      <a href="https://trendhunter.com">new trends...</a><br>
+      <a href="https://www.youtube.com/watch?v=Sfpcl4FX3TU">some tips...</a>
+   </div>
+    <div class="box box4">
+      <div class="icon1"><i class='bx bxs-book-open bx-sm' ></i></div>
+      <div class="topic">Extra Features</div>
+      <p class="par-4">Free programming e-books, browser application</p>
+  
+      <a href="https://www.theinsaneapp.com/2021/01/free-programming-books.html">free books</a><br>
+      <a href="https://stivitu.github.io/runes4me/">runes4me</a>
+</div>
+  </section>
+
+  <div class="subtitle1"><h2><i>Contact</i></h2></div>
+
+  <section id="section5">
+    <!-- Content for section 5 -->
+    <div class="box box5">
+<p class="par-5">
+
+email: stiven.me@outlook.com/ phone: +385 99 2157020
+
+</p>  
+</div>
+    <div class="box box5">
+<p>
+  <div class="icon2"><a href="https://facebook.com"><i class='bx bxl-facebook-circle bx-sm'></i></a></div>
+  <div class="icon2"><a href="https://instagram.com"><i class='bx bxl-instagram-alt bx-sm' ></i></a></div>
+  <div class="icon2"><a href="https://linkedin.com"><i class='bx bxl-linkedin bx-sm' ></i></a></div>
+
+   </p>
+</div>
+   
+  </section>
+</main>
+
+<footer>
+  T.S. 2024
+</footer>
+
+<script type="text/javascript">
+  let menu = document.querySelector("#menu-icon");
+  let navlist = document.querySelector(".navlist");
+menu.onclick = () => {
+   menu.classList.toggle("bx-x");
+   navlist.classList.toggle("open");
+
+} 
+</script>
+</body>
+</html>
